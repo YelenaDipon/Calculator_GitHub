@@ -1,0 +1,28 @@
+#canvas{
+    position: fixed;
+    background-color:maroon;
+}
+#input{
+    padding: 20.3px; top:10px;
+    color: red;
+    position: relative;
+    background-color: white;
+}
+.buttons,.symbols{
+    background-color: lightpink;
+    position: relative;
+    font-family: '', cursive; font-size: 21.9px;
+    margin: 5px; padding: 5px;
+    color: black;
+}
+.symbols{
+    background-color: hotpink;
+}
+body{
+    background-color: black;
+}
+#equals{
+    background-color: deeppink;  margin: 5px; padding: 5px;
+    width:38px; height: 140px;
+    position: fixed;
+}
