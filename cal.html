@@ -4,32 +4,34 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>My Calculator</title>
-    <link rel="stylesheet" type="text/css" href="calc.css" />
+
+    <link href="calc.css" rel="stylesheet" type="text/css">
 </head>
-<body>
-<canvas width='215' height='293' id='canvas'> </canvas>
-<label for='input'> </label><input id='input'>
+<h1 id='title'> My 1st Calculator </h1>
+<body class='page'>
+<input type="text" id="display" readonly>
 <br>
-<br>
-<button class='buttons'> 7 </button>
-<button class='buttons'> 8 </button>
-<button class='buttons'> 9 </button>
-<button class='symbols' class='buttons'> / </button>
-<button class='symbols' class='buttons'> C </button><br>
-<button class='buttons'> 4 </button>
-<button class='buttons'> 5 </button>
-<button class='buttons'> 6 </button>
-<button class='symbols' class='buttons'> * </button>
-<button id='equals'> = </button>
-<br>
-<button class='buttons'> 1 </button>
-<button class='buttons'> 2 </button>
-<button class='buttons'> 3 </button>
-<button class='symbols' class='buttons'> - </button><br>
-<button class='buttons'> 0 </button>
-<button class='symbols' class='buttons'> . </button>
-<button class='symbols' class='buttons'> + </button>
-<button class='symbols' class='buttons'> % </button>
-<script type="application/javascript" src="calc.js"></script>
+    <button class='buttons'  id='C'  onclick="digit('  ')">C</button>
+    <button class='buttons'  id='clear'  onclick="digit('=')">=</button>
+    <br>
+    <button class='buttons' onclick='digit(9)'>9</button>
+    <button class='buttons' onclick='digit(8)'>8</button>
+    <button class='buttons' onclick='digit(7)'>7</button>
+    <button class='buttons' class='symbol' onclick="digit('+')">+</button>
+    <br>
+    <button class='buttons' onclick='digit(6)'>6</button>
+    <button class='buttons' onclick='digit(5)'>5</button>
+    <button class='buttons' onclick='digit(4)'>4</button>
+    <button class='buttons' onclick="digit('-')">-</button>
+    <br>
+    <button class='buttons' onclick='digit(3)'>3</button>
+    <button class='buttons' onclick='digit(2)'>2</button>
+    <button class='buttons' onclick='digit(1)'>1</button>
+    <button class='buttons' onclick="digit('*')">*</button>
+    <br>
+    <button class='buttons' onclick="digit('/')">/</button>
+    <button class='buttons' onclick='digit(0)'>0</button>
+    <button class='buttons' onclick="digit('.')">.</button>
+<script type class="application/javascript" src="calc.js"></script>
 </body>
 </html>
