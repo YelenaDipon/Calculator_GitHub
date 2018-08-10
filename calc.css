@@ -1,28 +1,33 @@
-#canvas{
-    position: fixed;
-    background-color:maroon;
-}
-#input{
-    padding: 20.3px; top:10px;
-    color: red;
-    position: relative;
-    background-color: white;
-}
-.buttons,.symbols{
-    background-color: lightpink;
-    position: relative;
-    font-family: '', cursive; font-size: 21.9px;
-    margin: 5px; padding: 5px;
-    color: black;
-}
-.symbols{
-    background-color: hotpink;
-}
 body{
-    background-color: black;
+    text-align: center;
 }
-#equals{
-    background-color: deeppink;  margin: 5px; padding: 5px;
-    width:38px; height: 140px;
+.buttons{
+    width : 45px;
+    height: 50px;
+    font-family: bold;
+    font-size: 30px;
+    margin: 1px
+}
+
+#title{
+    color: gray;
+}
+
+.page{
     position: fixed;
+    margin: 50px;
+    padding: 50px;
+    border: 10px
+}
+
+#display{
+    width: 250px;
+    height: 100px;
+    background-color: beige;
+    font-size: 25px;
+}
+
+#clear,#C{
+    height: 60px;
+    width: 100px;
 }
