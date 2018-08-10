@@ -4,15 +4,14 @@ let result = 0
 function write (n) {
   document.getElementById('display').value = n
 }
-
-function digit(n) {
+function digit (n) {
   t += n
   write(t)
   if (t.includes('=')) {
     write(result)
   }
   if (t.includes(' ') || (t.includes('=='))) {
-    t = '';
+    t = ''
     write(t)
   }
   let symbol = t.match(/[-+*/]/g);
