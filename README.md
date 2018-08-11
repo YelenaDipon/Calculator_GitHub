@@ -1,5 +1,5 @@
 # Calculator_GitHub
 First Step
-(./cal.html)
-(./calc.css)
-(./calc.js)
+(./cal.md)
+(./calc.md)
+(./calc.md)
